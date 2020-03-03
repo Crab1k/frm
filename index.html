@@ -1,0 +1,68 @@
+<div style="display: flex; justify-content: center; font-family: Arial, Helvetica, sans-serif">
+<form style="display: grid; grid-template-columns: 3fr 1fr;">
+
+<div style="display: flex; flex-flow: column nowrap; justify-content: space-evenly; height: 100%; margin: 0; padding: 0 20% 0 2vmin;">
+
+    <div style="line-height: 300%; font-weight: bold; color: white; background-color: #db6423; text-align: center;  margin: 0 -5vmin 0 -4vmin;">CREDIT CARD DETAILS</div>
+
+<div>
+    <p>Card number</p>
+    <input type="tel" required placeholder="1234 5678 9012 3456" minlength="16" maxlength="16" size="16">
+</div>
+
+<div>
+    <p>Name of card</p>
+    <input type="text" required placeholder="Name Surname" size="16">
+</div>
+
+<div style="display: flex; flex-flow: row nowrap; justify-content: space-between; margin: 0;">
+    <div>
+    <p>Expiry date</p>
+    <input type="tel" required placeholder="MM" maxlength="2" minlength="2" size="8">
+        </div>
+
+    <div>
+        <p>&nbsp</p>
+        <input type="tel" required placeholder="YYYY" minlength="4" maxlength="4" size="8">
+        </div>
+
+    <div>
+        <p><abbr title="3 цифры сзади карточки">CVV/CVN</abbr></p>
+        <input type="password" required minlength="3" maxlength="3" size="8">
+        </div>
+</div>
+
+</div>
+
+
+ <div style="overflow: hidden;"><img src="htmlimg/moon_flag.png" width="auto" height="300vmin" style="margin: 30vmin auto auto -2vmin;"></div>
+
+</form>
+</div>
+
+
+<style>
+    
+    form{
+        padding: 0;
+        background-color: #9fcdcd;
+        border-radius: 2vmin;
+        height: 60vmin;
+        width: 90vmin;
+    }
+
+    input{
+        background-color: #a9d2d2;
+        line-height: 200%;
+        padding-left: 1%;
+        resize: horizontal;
+        size: auto;
+        margin: 0 0 0 0;
+    }
+
+    input:active {
+        width: auto;   
+    }
+ 
+
+</style>
